@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { Photo } from "./components/Photo";
 
 const App = () => {
 
@@ -17,12 +18,16 @@ const App = () => {
       <Header title="Este é um exemplo"/>
       <Header title="Novo exemplo"/>
       <Header title="Futuro exemplo"/>
+      <Photo url="" legend="Imagem do Google">
+        <img src="http://www.google.com/google.jpg" alt="" />
+      </Photo>
+
+
       Olá, {`${name.toLocaleUpperCase()} ${lastName.toLowerCase()}`} tudo bem?<br />
       A Soma é: {soma(n1, n2) + n2}<br />
       O link do <a href={link}>Google</a>
     </div>
   )
-  
 }
 
 export default App;
