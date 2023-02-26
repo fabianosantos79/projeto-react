@@ -40,7 +40,7 @@ const App = () => {
       <Header title="Este é um exemplo"/>
       <Header title="Novo exemplo"/>
       <Header title="Futuro exemplo"/>
-      <Photo url="" legend="Imagem do Google">
+      <Photo url="" legend="Imagem do Google2">
         <img src="http://www.google.com/google.jpg" alt="" />
       </Photo>
 
